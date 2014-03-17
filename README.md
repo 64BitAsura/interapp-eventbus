@@ -38,5 +38,5 @@ and both modules should inherit the InterAppEventBus module
 
 And it supported for Chrome, FireFox, Safari and IE9 - above versions
 
-You can download the jar from - http://goo.gl/bWVXv0
+You can download the jar from - http://goo.gl/OsANf2
 
