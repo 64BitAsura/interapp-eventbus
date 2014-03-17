@@ -33,10 +33,10 @@ return "test_1";
 }
 
 Note: Module A and B are deployed in same web page 
-and both modules should inherit the InterAppEventBus module
+      and both modules should inherit the InterAppEventBus module. 
+      Changes need to this project once GWT 3.0 JSInterop released
 
 
 And it supported for Chrome, FireFox, Safari and IE9 - above versions
 
 You can download the jar from - http://goo.gl/OsANf2
-
