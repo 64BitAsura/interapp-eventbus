@@ -109,6 +109,6 @@ public class InterAppEventBus {
 	}
 
 	private static native boolean _isSupported()/*-{
-		return typeof CustomEvent == 'function';
+		return typeof CustomEvent == 'function' || document.createEvent('CustomEvent')!=null;
 	}-*/;
 }
