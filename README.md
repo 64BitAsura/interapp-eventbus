@@ -1,5 +1,5 @@
-interapp-eventbus
-=================
+GWT InterApp EventBus
+=====================
 This working model for InterApp EventBus that was explained in Turducken model - http://goo.gl/jJUEMh
 
 Please see the example in test dir

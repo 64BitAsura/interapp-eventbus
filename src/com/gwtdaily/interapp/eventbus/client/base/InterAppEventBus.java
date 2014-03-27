@@ -12,18 +12,17 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.*/
 
-package org.sambath.gwt.client.base;
+package com.gwtdaily.interapp.eventbus.client.base;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import org.sambath.gwt.client.prototype.InterAppEventHandler;
-
 import com.google.gwt.core.client.JavaScriptObject;
 import com.google.gwt.core.client.Scheduler;
 import com.google.gwt.core.client.Scheduler.ScheduledCommand;
+import com.gwtdaily.interapp.eventbus.client.prototype.InterAppEventHandler;
 
 /**
  * @author Sam
@@ -86,7 +85,7 @@ public class InterAppEventBus {
 				.addEventListener(
 						type,
 						function(e) {
-							$entry(@org.sambath.gwt.client.base.InterAppEventBus::pickListener(Ljava/lang/String;Lcom/google/gwt/core/client/JavaScriptObject;)(type,e.detail));
+							$entry(@com.gwtdaily.interapp.eventbus.client.base.InterAppEventBus::pickListener(Ljava/lang/String;Lcom/google/gwt/core/client/JavaScriptObject;)(type,e.detail));
 						}, false);
 	}-*/;
 
