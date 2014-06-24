@@ -40,3 +40,5 @@ Note: Module A and B are deployed in same web page
 And it supported for Chrome, FireFox, Safari and IE9 - above versions
 
 You can download the jar from - http://goo.gl/OsANf2
+
+[ ![Codeship Status for sambathl/interapp-eventbus](https://codeship.io/projects/5a4dcb10-ddab-0131-f284-7e1b710d81dc/status)](https://codeship.io/projects/24698)
